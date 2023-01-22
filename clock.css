@@ -1,0 +1,40 @@
+#clock {
+    background-image: url(clock.png);
+    background-size: 100% 100%;
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    position: relative;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#hour {
+    width: 1.8%;
+    height: 22%;
+    top: 27%;
+    left: 49.5%;
+    transform-origin: bottom;/*esse hands uske bottom se rotate hoge*/
+}
+
+#minute {
+width: 1.6%;
+    height: 28%;
+    top: 22%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
+
+#second {
+   width: 1.4%;
+    height: 32%;
+    top:18%;
+    left: 49.5%;
+    transform-origin: bottom;
+}
